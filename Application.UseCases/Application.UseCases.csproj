@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CreateProduct\" />
+    <Folder Include="GetAllProducts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.UseCasePorts\Application.UseCasePorts.csproj" />
+    <ProjectReference Include="..\Gateway.RepositoryEFCore\Gateway.RepositoryEFCore.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+@JFMSystems.WebAPI_HostAddress = http://localhost:5033
+
+GET {{JFMSystems.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
